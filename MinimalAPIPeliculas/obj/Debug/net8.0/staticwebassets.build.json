@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "LF1OHJiuwlSr7BeN9YTx1qly/lQ7M7XJh1zekFPtMR8=",
+  "Source": "MinimalAPIPeliculas",
+  "BasePath": "_content/MinimalAPIPeliculas",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MinimalAPIPeliculas\\wwwroot",
+      "Source": "MinimalAPIPeliculas",
+      "ContentRoot": "C:\\Users\\TECNOLOGIA\\Desktop\\ASPNETCore\\MinimalAPIPeliculas\\wwwroot\\",
+      "BasePath": "_content/MinimalAPIPeliculas",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\TECNOLOGIA\\Desktop\\ASPNETCore\\MinimalAPIPeliculas\\wwwroot\\actores\\e2a661b2-9fae-4d97-be46-287c19ba7ef4.jpg",
+      "SourceId": "MinimalAPIPeliculas",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TECNOLOGIA\\Desktop\\ASPNETCore\\MinimalAPIPeliculas\\wwwroot\\",
+      "BasePath": "_content/MinimalAPIPeliculas",
+      "RelativePath": "actores/e2a661b2-9fae-4d97-be46-287c19ba7ef4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\actores\\e2a661b2-9fae-4d97-be46-287c19ba7ef4.jpg"
+    }
+  ]
+}

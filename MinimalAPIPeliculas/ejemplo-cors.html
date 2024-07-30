@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=GNPFZa2o9aSOf8BiWX8PX0U5b1VfyzW7CYRj0B_PZvOpfrpbqb40abRXDb2CoZGKsyheDB6TiVZ_DC4hJfHzVm_hQIlL3MyxcEv2z_pY1IYIPrqYR2QuTLHQgf1g8WcOpDkP8yK3xPb7M0WOHL6_zJgzHCPHm1vr650ZDGX_wmlyj6aY6a5jOccmPTq5uaZ7ipn-bfMQqSZf72maqcg_ZdtrkaHvsBaEHnhRcRRuKFjD76lDDHtI81wh-j3SgKeADKHysZW_SMQPilmaIBjq9jBrFiZj2Suy14u9_BgcyMtKB5ljv3MJNBimJdxxt_mV34YG8fKc2lzzomPYh3Y6pFjmsd6313NA4gCGLE547LCkXtyAsnVt44T2-jhB09IR2JnYpCm59J2LmAXsNTbEGYcGOt_3KwiEpYECETihfGPvqkNsgvqOe6AAvyGZY3uUF7mMo8jPiF01-WroP5-mADjYQj75LgKUpJh2ZFJ7KkiHvM78y8M5XGPHacLCw71z4VuhlbQ9DBREuVPu8hWB7DANajIdQd0QMmtRQSbYaxaWOgwWOxZejGoM_L5A7Aavonx-R4oFvFPSu3wQ4SeYaE78s4HK59AsvAC1gDxEVaakXaE3DWlfEfL7fci7GjX8W28YR_xy7OB6NrzhKEVSfGUmeZ0AeK8i-K-U7yU2ltxyV7M7aRBzv6JMbO0jHmtYF_c_uQdA2mQdnfYcgPLqKfQ1-KH9iMd2KuXJk33c_7xaGG01EgDLhRx351APLWzChtqGO3JsQZR9F5Tah-YfEw" charset="UTF-8"></script></head>
+<body>
+    <h1>Prueba CORS del Web API (presionar F12)</h1>
+    <script>
+        const urlWebAPI = 'https://localhost:7264/generos';
+        consumirWebAPI(); 
+        async function consumirWebAPI() {
+            const respuesta = await fetch(urlWebAPI, {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            });
+
+            const json = await respuesta.text();
+            console.log(json);
+
+        }
+    </script>
+</body>
+</html>
